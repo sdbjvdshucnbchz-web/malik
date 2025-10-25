@@ -1,0 +1,211 @@
+header{
+    	background-image:url('../image/pou.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.log{
+    display: flex;
+    position: relative;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 25px 0 0 25px;
+    border-radius: 40px;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.ima img{
+    width: 25px;
+    height: 25px;
+}
+.po h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 50px 0 0 50px;;
+    font-size: 30px;
+    text-align: start;
+}
+.recherch{
+    margin: 25px 0 0 10px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color:#fff;
+    color: #fff;
+    opacity:0.2;
+}
+.recherch input{
+    border:none;
+}
+.recherch a{
+    margin: 13px 6px 0 6px;
+    text-decoration: none;
+}
+.bute{
+    display: flex;
+    margin: 100px 0 0 60px;
+}
+.bute .p3,.p4{
+    text-align: center;
+border: 1px solid black;
+border-radius: 8px;
+padding: 9px;
+width: 170px;
+height: 35px;
+background-color: white;
+color: #000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 30px;
+}
+
+.bute .p3{
+    background-color: purple;
+    color: #ffffff;
+}
+.bute a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.eng{
+    margin: 150px 0 0 50px;
+    border:1px solid black ;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+.eng img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/*section*/
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+h4{
+    color: #fff;
+    padding: 0 0 0 20px;
+}
+h1{
+    text-align: center;
+    margin-left: 660px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: purple;
+    width: 180px;
+}
+.ph{
+    background-color: #fff;
+}
+
+.image .ph{
+    border: 1px  black;
+    box-shadow:3px 1px 2px 2px gray;
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+}
+.ph img{
+padding: 25px 0 0 25px;
+width: 300px;
+height: 150px;
+}
+.ph :hover{
+    transform: scale(1.1);
+    border-width: 4px;
+}
+.idf button{
+    margin: 0 0 0 40px;
+    background-color: purple;
+    color: #fff;
+   text-decoration: none;
+   width: 125px;
+   height: 50px;
+   border-radius: 8px;
+}
+.ib{
+    display: flex;
+ margin-left: 20px;
+}
+.imag img{
+    width: 50px;
+    height: 50px;
+}
+.idf button:hover{
+    background-color: plum;
+    cursor: pointer;
+}
+.pok{
+    display: flex;
+    margin-left: 20px;
+}
+.ph p{
+    padding-left: 25px;
+}
+.p1{
+    color: red;
+    text-decoration: line-through;
+margin-left: 50px;
+}
+.p2{
+    color: green;
+    margin-left: 50px;
+}
+.ib img{
+    padding-top: 0;
+}
+/*footer*/
+footer{
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+h5{
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+}
+.phone p{
+    color: #fff;
+}
+.poh{
+    margin-right: 25px;
+    color: #fff;
+}
+.poh li{
+    color: #fff;
+    margin-left: 20px;
+list-style-type: none;
+}
+.poh a{
+    text-decoration: none;
+    color: #fff;
+}
